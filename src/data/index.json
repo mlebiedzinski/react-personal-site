@@ -1,0 +1,80 @@
+{
+    "projectsCS": [
+      {
+        "id": "1",
+        "src": "./img/imageProcessor.png",
+        "title": "Image Processor",
+        "description": "An image processing program that allows users to load in images and manipulate them in ways such as, blur, sharpen, flip, and many more, then save the image.",
+        "software": "Java", 
+        "link": "https://github.com/mlebiedzinski/ImageProcessor"
+
+      },
+      {
+        "id": "2",
+        "src": "./img/connectFour.png",
+        "title": "Connect Four",
+        "description": "An interactive game of Connect Four against a bot that aims to find the best and most intelligent move.",
+        "software": "Python",
+        "link": "https://github.com/mlebiedzinski/Connect-Four"
+      },
+      {
+        "id": "3",
+        "src": "./img/password.png",
+        "title": "Password Generator",
+        "description": "A random password generation programs that generates a sequence of characters based on supplied parameters such as number of words, numbers, symbol, etc.",
+        "software": "Python",
+        "link": "https://github.com/mlebiedzinski/Password-Generator"
+      },
+      {
+        "id": "4",
+        "src": "./img/magnifyingGlass.png",
+        "title": "Image Classification",
+        "description": "A program using convolutional neural networks with the goal of differentiating unique hand symbols of rock, paper, or scissors",
+        "software": "Python",
+        "link": "https://github.com/mlebiedzinski/Image-Classification"
+      }
+    ],
+
+    "projectsDesign": [
+      {
+        "id": "1",
+        "src": "./img/magazine_mock_up.png",
+        "title": "Volleyball Publication",
+        "software": "Adobe Indesign",
+        "link": "../PortfolioPages/Cookbook.jsx"
+       
+      },
+      {
+        "id": "2",
+        "src": "./img/cook_book_cover.png",
+        "title": "Cookbook",
+        "software": "Adobe InDesign",
+        "link": "src/Pages/Home/PortfolioPages/Cookbook.jsx"
+        
+      },
+      {
+        "id": "3",
+        "src": "./img/one_poster.png",
+        "title": "'1, 10, 100 Shapes' Project",
+        "software": "Adobe Illustrator"
+      },
+      {
+        "id": "4",
+        "src": "./img/illustration_mockup.png",
+        "title": "Magazine Illustration",
+        "software": "Procreate"
+      },
+      {
+        "id": "5",
+        "src": "./img/iphone_screen.png",
+        "title": "Spotify Redesign",
+        "software": "Figma"
+      },
+      {
+        "id": "6",
+        "src": "./img/ketchup_canvas.png",
+        "title": "Other Art",
+        "software": ""
+      }
+    ]
+  }
