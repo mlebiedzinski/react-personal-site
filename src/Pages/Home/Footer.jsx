@@ -122,6 +122,8 @@ function Footer() {
       <hr className="divider" />
       <div className="footer--content--container">
         <p className="footer--content">Made by Maddie :)</p>
+
+
         <div className="footer--social--icon">
             <p>610.955.9013</p>
         </div>

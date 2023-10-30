@@ -2,9 +2,10 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: "Roboto", sans-serif;
-  -moz-osx-font-smoothing: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: Helvetica, sans-serif;
+  -webkit-font-smoothing: "Helvetica", sans-serif;
+  -moz-osx-font-smoothing: "Helvetica", sans-serif;
   font-style: normal;
 }
 h1,
@@ -15,6 +16,10 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+p {
+  font-family: Inter;
 }
 
 a {
@@ -585,7 +590,7 @@ h2 {
     align-items: center;
   }
   .divider {
-    margin: 20px;
+    margin: 0px;
   }
 }
 
@@ -663,3 +668,4 @@ h2 {
 }
 
 /* Responsive Screens Ends*/
+

@@ -4,12 +4,12 @@ export default function AboutMe() {
         <div className="about--section--img">
           <img src="./img/mewallblobs.svg" alt="About Me" />
         </div>
+
         <div className="hero--section--content--box about--section--box">
           <div className="hero--section--content">
-            <h1 className="skills-section--heading">About Me</h1>
-            <p className="hero--section-description">
-              Some of my hobbies include...
-            </p>
+                <h1 className="skills-section--heading">About Me</h1>
+                <p className="hero--section-description">
+                Some of my hobbies include..</p>
           </div>
           <ul>
               <li>
@@ -30,9 +30,10 @@ export default function AboutMe() {
               <li>
                   Board Games
               </li>
-
           </ul>
+          
         </div>
+       
       </section>
     );
   }
