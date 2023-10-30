@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
-
     const toggleNav = () => {
         setNavActive(!navActive);
     };
@@ -15,7 +14,7 @@ function Navbar() {
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 500) {
-                closeMenu;
+                closeMenu()
             }
         };
 
@@ -28,7 +27,7 @@ function Navbar() {
 
     useEffect(() => {
         if (window.innerWidth <= 1200) {
-            closeMenu;
+            closeMenu()
         }
     }, []);
 
@@ -89,23 +88,9 @@ function Navbar() {
                             About Me
                         </Link>
                     </li>
-                    {/* <li>
-                        <Link
-                            onClick={closeMenu}
-                            activeClass="navbar--active-content"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
-                            to="testimonial"
-                            className="navbar--content"
-                        >
-                            other
-                        </Link>
-                    </li> */}
+                    
                 </ul>
             </div>
-            
         </nav>
     );
 } export default Navbar;
