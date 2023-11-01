@@ -669,3 +669,9 @@ h2 {
 
 /* Responsive Screens Ends*/
 
+/* project pages */
+.gallery_images {
+  width: 20%;
+  height: auto;
+}
+

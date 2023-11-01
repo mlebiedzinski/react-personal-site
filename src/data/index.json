@@ -41,7 +41,7 @@
         "src": "./img/magazine_mock_up.png",
         "title": "Volleyball Publication",
         "software": "Adobe Indesign",
-        "link": "../PortfolioPages/Cookbook.jsx"
+        "link": "src/Pages/Home/PortfolioPages/VolleyballPublication.jsx"
        
       },
       {

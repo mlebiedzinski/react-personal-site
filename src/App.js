@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./Pages/Home/Navbar";
+// import Navbar from "./Pages/Home/Navbar";
 import Home from "./Pages/Home/Homescreen";
 import Cookbook from "./Pages/Home/PortfolioPages/Cookbook" 
 
@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          <Navbar />
+          {/* <Navbar /> */}
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="src/Pages/Home/PortfolioPages/Cookbook.jsx" element={<Cookbook.jsx/>}></Route>
+            <Route path="src/Pages/Home/PortfolioPages/Cookbook.jsx" element={<Cookbook/>}></Route>
             <Route path="*" element={<div>404 Not Found</div>}></Route>
           </Routes>
         </div>
