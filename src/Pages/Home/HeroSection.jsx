@@ -10,7 +10,7 @@ export default function HeroSection() {
                         at <span className="hero--section--neu--text">Northeastern University</span>
                     </h1>
                     <p className="hero--section-description">
-                    I'm passionate about bridging the gap between computer science
+                    I am passionate about bridging the gap between computer science
                       and design in the ever-changing digital world. {/* 
                     I'm driven by the challenge of harmonizing technology and
                      aesthetics in the constantly changing digital world
