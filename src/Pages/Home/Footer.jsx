@@ -125,7 +125,7 @@ function Footer() {
 
 
         <div className="footer--social--icon">
-            <p>610.955.9013</p>
+          
         </div>
       </div>
     </footer>
