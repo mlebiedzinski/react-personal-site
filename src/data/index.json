@@ -56,25 +56,29 @@
         "id": "3",
         "src": "./img/one_poster.png",
         "title": "'1, 10, 100 Shapes' Project",
-        "software": "Adobe Illustrator"
+        "software": "Adobe Illustrator",
+        "link": "src/Pages/Home/PortfolioPages/Shapes.jsx"
       },
       {
         "id": "4",
         "src": "./img/illustration_mockup.png",
         "title": "Magazine Illustration",
-        "software": "Procreate"
+        "software": "Procreate",
+        "link": "src/Pages/Home/PortfolioPages/MagazineIllustration.jsx"
       },
       {
         "id": "5",
         "src": "./img/iphone_screen.png",
         "title": "Spotify Redesign",
-        "software": "Figma"
+        "software": "Figma",
+        "link": "src/Pages/Home/PortfolioPages/SpotifyRedesign.jsx"
       },
       {
         "id": "6",
         "src": "./img/ketchup_canvas.png",
         "title": "Other Art",
-        "software": ""
+        "software": "",
+        "link": "src/Pages/Home/PortfolioPages/OtherArt.jsx"
       }
     ]
   }

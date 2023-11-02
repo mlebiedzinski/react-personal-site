@@ -1,6 +1,5 @@
 import data from "../../data/index.json";
 import { Link, useParams, useLocation } from "react-router-dom";
-import Cookbook from "./PortfolioPages/Cookbook";
 
 export default function MyPortfolio() {
     return (
