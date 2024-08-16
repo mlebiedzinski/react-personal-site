@@ -424,7 +424,7 @@ a {
 
 /* Footer Starts */
 .footer--container {
-  background-image: url('/Users/Maddie/Documents/Portfolio Site/react-js-portfolio/public/img/footer_image.JPG'); /* Replace with the correct path to your image */
+  background-image: url('../public/img/footer_image.png'); /* Replace with the correct path to your image */
   background-size: cover; /* Ensures the image covers the entire footer area */
   background-position: bottom; /* Centers the image within the footer */
   width: 100%; /* Make sure the footer takes up the full width of the screen */
