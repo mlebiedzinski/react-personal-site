@@ -1,21 +1,18 @@
 import AboutMe from "../AboutMe";
-import ContactMe from "../ContactMe";
 import Footer from "../Footer";
 import HeroSection from "../HeroSection";
-import MyPortfolio from "../MyPortfolio";
+import MyProjects from "../MyProjects";
 import Navbar from "../Navbar";
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"></link>
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <HeroSection />
-      <MyPortfolio />
+      <MyProjects />
       <AboutMe />
       <Footer />
-      {/* 
-      <ContactMe />
-      <Footer /> */}
     </>
   );
 }

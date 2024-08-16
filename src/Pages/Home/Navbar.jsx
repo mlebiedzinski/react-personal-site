@@ -6,7 +6,6 @@ function Navbar() {
     const toggleNav = () => {
         setNavActive(!navActive);
     };
-
     const closeMenu = () => {
         setNavActive(false);
     };
@@ -34,7 +33,7 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
-                <img className="navbar-logo" src="logo.png" alt="Logoipsum" />
+            <h5>Maddie Lebiedzinski</h5>
             </div>
             <a
                 className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -57,7 +56,7 @@ function Navbar() {
                             to="heroSection"
                             className="navbar--content"
                         >
-                            Home
+                            <h5>Home</h5>
                         </Link>
                     </li>
                     <li>
@@ -68,10 +67,10 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="MyPortfolio"
+                            to="MyProjects"
                             className="navbar--content"
                         >
-                            Projects
+                            <h5>Projects</h5>
                         </Link>
                     </li>
                     <li>
@@ -85,7 +84,7 @@ function Navbar() {
                             to="AboutMe"
                             className="navbar--content"
                         >
-                            About Me
+                            <h5>About Me</h5>
                         </Link>
                     </li>
                     
